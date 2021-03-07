@@ -17,6 +17,7 @@ public class teste_calendar {
 		}
 		catch (IOException e) {
 			System.out.println("Error opening file: " + e.getMessage());
+			System.out.println("Testando o git");
 		}
 		finally {
 			if (sc != null) {
